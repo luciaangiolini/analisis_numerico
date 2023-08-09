@@ -1,0 +1,20 @@
+# ninja log v5
+3	407	7132390091862355	build.ninja	eeadd1b7a7418c35
+5	528	7132309613892276	CMakeFiles/Analisis_Numerico.dir/biseccion_main.cpp.obj	6e71d649b7ddad8c
+528	643	7132309614963545	Analisis_Numerico.exe	364e68279b2041e
+5	698	7132423961240999	CMakeFiles/Analisis_Numerico.dir/biseccion_main.cpp.obj	6e71d649b7ddad8c
+698	1067	7132423964900181	Analisis_Numerico.exe	364e68279b2041e
+4	525	7132424806989165	CMakeFiles/Analisis_Numerico.dir/biseccion_main.cpp.obj	6e71d649b7ddad8c
+526	661	7132424808121866	Analisis_Numerico.exe	364e68279b2041e
+3	635	7132426126722362	CMakeFiles/Analisis_Numerico.dir/biseccion_main.cpp.obj	6e71d649b7ddad8c
+666	801	7132426128328586	Analisis_Numerico.exe	364e68279b2041e
+6	496	7132427475787175	CMakeFiles/Analisis_Numerico.dir/biseccion_main.cpp.obj	6e71d649b7ddad8c
+497	667	7132427477435607	Analisis_Numerico.exe	364e68279b2041e
+4	607	7132429586001010	CMakeFiles/Analisis_Numerico.dir/biseccion_main.cpp.obj	6e71d649b7ddad8c
+608	718	7132429587084927	Analisis_Numerico.exe	364e68279b2041e
+4	567	7132431652390126	CMakeFiles/Analisis_Numerico.dir/biseccion_main.cpp.obj	6e71d649b7ddad8c
+567	695	7132431653607477	Analisis_Numerico.exe	364e68279b2041e
+6	558	7132435158790283	CMakeFiles/Analisis_Numerico.dir/biseccion_main.cpp.obj	6e71d649b7ddad8c
+559	669	7132435159854485	Analisis_Numerico.exe	364e68279b2041e
+2	520	7132435554825613	CMakeFiles/Analisis_Numerico.dir/biseccion_main.cpp.obj	6e71d649b7ddad8c
+521	622	7132435555813124	Analisis_Numerico.exe	364e68279b2041e
