@@ -8,42 +8,34 @@
 #include <iostream>
 using namespace std;
 
-float funcion(float x);
+double funcion(double x);
+double biseccion(double a, double b, double ep);
 
 int main(){
-    float f, a, b, c, c_anterior, ep, error;
+    double n, m, ep;
     cout << "Ingrese el extremo izquierdo del intervalo: " << endl;
-    cin >> a;
+    cin >> n;
     cout << "Ingrese el extremo derecho del intervalo: " << endl;
-    cin >> b;
+    cin >> m;
     cout << "Ingrese el error permitido: " << endl;
     cin >> ep;
-    c = 0;
-    if ( funcion(a) * funcion(b) > 0){
-        cout << "La funcion no tiene raiz en este intervalo --> (" << a << ";" << b << ")" <<endl;
-    }else{
-        cout << "Int. Izq    " << "Int. Der.    " << "Medio    " << "Error    " << endl;
-        do {
-            c_anterior = c;
-            c = (a + b) / 2;
-            error = abs(c-c_anterior);
-            f = funcion(a) * funcion(b);
-            if (f < 0){
-                b = c;
-            }else if(f > 0){
-                a = c;
-            }else{
-                error = 0;
-            }
-            cout << setprecision(4) << a << "          " << setprecision(4) << b << "          " << setprecision(4) << c << "          " << setprecision(4) << error << endl;
-        } while (error>ep);
-        cout << "El ultimo valor de 'Medio' es el valor de la raiz" << endl;
+    cout << "El valor de la raiz en el intervalo (" << n << ", " << m << ") es: " << biseccion(n, m, ep) << endl;
     }
 
+double funcion(double x){
+    return exp(-x) -x;
 }
 
-float funcion(float x){
-    float f = pow(x, 2) - 2;
-    return f;
-}
-
+double biseccion(double a, double b, double ep) {
+    double c = (a + b) / 2;
+    while (abs(b - a) > ep) {
+        if (funcion(c) == 0.0)
+            break;
+        else if (funcion(c) * funcion(a) < 0)
+            b = c;
+        else
+            a = c;
+        c = (a + b) / 2;
+    }
+    return c;
+    }
