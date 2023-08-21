@@ -49,8 +49,14 @@ cmake_ninja_workdir = C$:/Users/Usuario/Desktop/Analisis$ Numerico/cmake-build-d
 
 build cmake_object_order_depends_target_Analisis_Numerico: phony || CMakeFiles/Analisis_Numerico.dir
 
-build CMakeFiles/Analisis_Numerico.dir/biseccion_main.cpp.obj: CXX_COMPILER__Analisis_Numerico_Debug C$:/Users/Usuario/Desktop/Analisis$ Numerico/biseccion_main.cpp || cmake_object_order_depends_target_Analisis_Numerico
-  DEP_FILE = CMakeFiles\Analisis_Numerico.dir\biseccion_main.cpp.obj.d
+build CMakeFiles/Analisis_Numerico.dir/raices.cpp.obj: CXX_COMPILER__Analisis_Numerico_Debug C$:/Users/Usuario/Desktop/Analisis$ Numerico/raices.cpp || cmake_object_order_depends_target_Analisis_Numerico
+  DEP_FILE = CMakeFiles\Analisis_Numerico.dir\raices.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Analisis_Numerico.dir
+  OBJECT_FILE_DIR = CMakeFiles\Analisis_Numerico.dir
+
+build CMakeFiles/Analisis_Numerico.dir/raices_main.cpp.obj: CXX_COMPILER__Analisis_Numerico_Debug C$:/Users/Usuario/Desktop/Analisis$ Numerico/raices_main.cpp || cmake_object_order_depends_target_Analisis_Numerico
+  DEP_FILE = CMakeFiles\Analisis_Numerico.dir\raices_main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Analisis_Numerico.dir
   OBJECT_FILE_DIR = CMakeFiles\Analisis_Numerico.dir
@@ -63,7 +69,7 @@ build CMakeFiles/Analisis_Numerico.dir/biseccion_main.cpp.obj: CXX_COMPILER__Ana
 #############################################
 # Link the executable Analisis_Numerico.exe
 
-build Analisis_Numerico.exe: CXX_EXECUTABLE_LINKER__Analisis_Numerico_Debug CMakeFiles/Analisis_Numerico.dir/biseccion_main.cpp.obj
+build Analisis_Numerico.exe: CXX_EXECUTABLE_LINKER__Analisis_Numerico_Debug CMakeFiles/Analisis_Numerico.dir/raices.cpp.obj CMakeFiles/Analisis_Numerico.dir/raices_main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Analisis_Numerico.dir

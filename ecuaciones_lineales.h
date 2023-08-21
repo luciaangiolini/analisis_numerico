@@ -1,0 +1,14 @@
+//
+// Created by Luchi on 21/8/2023.
+//
+
+#ifndef ANALISIS_NUMERICO_ECUACIONES_LINEALES_H
+#define ANALISIS_NUMERICO_ECUACIONES_LINEALES_H
+
+
+class ecuaciones_lineales {
+
+};
+
+
+#endif //ANALISIS_NUMERICO_ECUACIONES_LINEALES_H

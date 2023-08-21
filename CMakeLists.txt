@@ -3,4 +3,4 @@ project(Analisis_Numerico)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Analisis_Numerico biseccion_main.cpp)
+add_executable(Analisis_Numerico raices.cpp raices_main.cpp)
